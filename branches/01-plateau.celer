@@ -1,0 +1,89 @@
+Plateau:
+- SOR clip:
+    notes: Watch opening cutscene.
+
+- _Equipment::Weapon<Tree Branch, Shroom>:
+    line-color: rgb(204,204,204)
+    coord: [-1034.19, 249.09, 1847.06]
+
+#- _Material<Hylian Shroom,1>:
+#    coord: [-1025.71, 247.58, 1877.90]
+#    hide-icon-on-map: true
+
+- .dir(Run)
+
+- .loc(Boko Camp)
+
+- _Material<Shroom, Pepper>:
+    coord: [-965.30, 238.52, 1956.67]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- .dir(Run and shield surf):
+    notes: First Zelda cutscene.
+
+- _Npc<Ruined Guardian>:
+    coord: [-836.10, 224.51, 1955.83]
+    comment: Get part.
+    notes: 52% screw, 25% spring, 15% gear, 8% shaft
+
+- .loc(Temple of Time):
+    notes: Clip in.
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+
+- _Material<Arrow,5>:
+    hide-icon-on-map: true
+
+- .dir(BLSS):
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- _Shrine::JaBaij:
+    comment: Clip in
+
+- _Npc<Old Man 1>:
+    icon: king
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text options 2-1-1-2
+
+- .dir(BLSS)
+- _Tower::GreatPlateau
+
+- _Npc<Old Man 2>:
+    icon: king
+    coord: [-572.50, 178.89, 1696.50]
+    comment: Text options 1-2-2-1
+    var-change:
+        MainQuest: 1
+    #notes: .v(MainQuest)/14 complete
+
+- .dir(BLSS):
+    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
+
+- _Material<Ruby,1>:
+    coord: [-671.65, 171.79, 1522.61]
+
+- _Shrine::OmanAu
+
+- .dir(BLSS)
+- .loc(Tree):
+    coord: [-839,2273.5]
+
+- .dir(Tree WB)
+- _Shrine::OwaDaim:
+    comment: IRON SLEDGEHAMMER
+
+- .dir(Boulder Launch + BLSS):
+    notes: 3 hits with hammer.
+- _Shrine::KehNamut
+
+- .dir(BLSS)
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    split-type: UserDefined
+    var-change:
+        MainQuest: 1
+    #notes: .v(MainQuest)/14 complete
