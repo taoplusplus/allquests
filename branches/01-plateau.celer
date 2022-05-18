@@ -62,8 +62,8 @@ Plateau:
 - .dir(BLSS):
     comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
 
-- _Material<Ruby,1>:
-    coord: [-671.65, 171.79, 1522.61]
+#- _Material<Ruby,1>:
+#    coord: [-671.65, 171.79, 1522.61]
 
 - _Shrine::OmanAu
 

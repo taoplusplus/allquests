@@ -1,2 +1,67 @@
 Vah Medoh:
 - .dir(BLSS)
+
+- _Material<Luminous Stones>:
+    line-color: rgb(0,255,0)
+    coord: [-2180.93, 269.56, 794.00]
+    comment: Collect everything
+    notes: Average 4.725 luminous stones
+
+- .dir(<N)
+
+- _Material<Rushroom,1>:
+    coord: [-2245.27, 353.25, 680.73]
+
+- .dir(Climb)
+
+- _Material<Diamond>:
+    coord: [-2247.90, 353.39, 662.05]
+
+- .dir(N>)
+
+- _Material<Durians and wood>:
+    coord: [-2188.20, 410.71, 447.05]
+
+- .dir(W)
+
+- _Material<Rushroom,3>:
+    coord: [-2297.00, 462.74, 447.00]
+
+- _Shrine::MoggLatan:
+    comment: 300 rupee, bow
+    var-change:
+        Rupee: 300
+    notes: .v(Rupee) rupees
+
+- .dir(S> surf/glide)
+
+- _Material<Endura Carrot,4>:
+    coord: [-2307.94, 416.75, 526.67]
+
+- .dir(<<W)
+
+- _Material<Fleet Lotus Seeds,8>:
+    coord: [-2558.07, 306.99, 655.56]
+
+- .dir(BLSS) to Rito Village
+
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- _Shop<Buy all except BA>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Sell diamond, stones
+    #var-change:
+    #    Rupee: 830
+    #notes: .v(Rupee) rupees.
+
+- .dir(<N turn super)
+
+- _Shrine::ShaWarvo
+
+- .dir(N)
+
