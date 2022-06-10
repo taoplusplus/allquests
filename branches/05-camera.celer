@@ -1,0 +1,49 @@
+Camera:
+
+- Talk to Kass
+
+- .dir(N>) super
+
+- 7x fleet lotus seeds
+- Complete Three Brothers quest:
+    notes: Remember to read the slab
+
+- _Shrine::TawaJinn
+
+- .dir(BLSS)
+
+- Talk to Bolson
+
+- _Tod::Morning:
+    coord: [3333.19, 235.33, 2283.12]
+
+- _Cook<3 Hasty Steamed Fruit>
+
+- Talk to Bolson and Hudson
+
+- _Shrine::MyahmAgana
+
+- Buy warm doublet:
+    coord: [3350.90, 227.20, 2124.20]
+
+- .dir(E)
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Sheep Rustlers
+
+- .!!(Blue Flame):
+    coord: [3447.5,1982]
+
+- .!!(Activate Tech Lab):
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+
+- Talk to Purah, get camera
+- SNAP Purah and sunshroom
+- Upgrade all runes
+- Complete Symin's quests
+
+- _Shrine::TahnoOah
+
+- _Chest<Climber's Leggings>

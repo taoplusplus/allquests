@@ -1,0 +1,68 @@
+Farosh:
+- _Warp::Tower::GreatPlateau:
+    line-color: rgb(255, 0, 255)
+
+- .dir(BLSS)
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+
+- Extra pot lid
+- Transmute 11 diamonds
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- Sell diamonds
+- Buy all arrows
+- Buy carrots from produce shop
+- Two hearts at goddess statue
+
+- .dir(N)
+
+- Activate Ta'loh Naeg:
+    coord: [1842,891]
+    icon: shrine
+    notes: Slightly faster to complete later with speed food.
+
+- .dir(N)
+- 6x blue nightshade
+
+- .dir(BLSS) + wb .dir(S)
+- Farosh scale and horn:
+    coord: [1730.5,2969.5]
+- Collect parts
+
+- _Shrine::ShodaSah
+
+- .dir(S>)
+- _Boss::Talus::Stone:
+    coord: [1690.73, 165.27, 3335.62]
+    comment: Pick up all drops
+
+- .dir(S>)
+- Axe on top of stable
+
+- _Shrine::ShaiUtoh
+
+- Razorshrooms and boxes
+- Turn in Thunder Magnet quest
+
+- _Tod::Noon:
+    coord: [1573.26, 165.96, 3530.55]
+    comment: For Beedle
+
+- Transmute 3x screw, shaft, core
+- Transmute 7+ horns
+
+- _Cook<2 Hasty Steamed Fruit>:
+    hide-icon-on-map: true
+    comment: 1 carrot, 3 lotus, 1 horn
+
+- .dir(E) land, .dir(N) + midair
+
+- _Shrine::QukahNata:
+    comment: Clip in
+
+- _Chest<Rubber Leggings>:
+    comment: In shrine

@@ -5,21 +5,18 @@ Vah Medoh:
     line-color: rgb(0,255,0)
     coord: [-2180.93, 269.56, 794.00]
     comment: Collect everything
-    notes: Average 4.725 luminous stones
 
-- .dir(<N)
+- .dir(N) + .dir(E) DEFUSE
 
 - _Material<Rushroom,1>:
     coord: [-2245.27, 353.25, 680.73]
-
-- .dir(Climb)
 
 - _Material<Diamond>:
     coord: [-2247.90, 353.39, 662.05]
 
 - .dir(N>)
 
-- _Material<Durians and wood>:
+- _Material<Durians + Wood>:
     coord: [-2188.20, 410.71, 447.05]
 
 - .dir(W)
@@ -27,18 +24,22 @@ Vah Medoh:
 - _Material<Rushroom,3>:
     coord: [-2297.00, 462.74, 447.00]
 
-- _Shrine::MoggLatan:
-    comment: 300 rupee, bow
+- _Shrine::MoggLatan
+
+- _Chest<Gold Rupee>:
+    comment: In shrine
     var-change:
         Rupee: 300
-    notes: .v(Rupee) rupees
 
-- .dir(S> surf/glide)
+- _Equipment::Bow<Forest Dweller's Bow>:
+    comment: In shrine
+
+- .dir(S> glide)
 
 - _Material<Endura Carrot,4>:
     coord: [-2307.94, 416.75, 526.67]
 
-- .dir(<<W)
+- .dir(<W) square
 
 - _Material<Fleet Lotus Seeds,8>:
     coord: [-2558.07, 306.99, 655.56]
@@ -52,16 +53,28 @@ Vah Medoh:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali Memory
 
-- _Shop<Buy all except BA>:
+- _Shop<General Shop>:
+    comment: All except bomb arrows
     coord: [-3643.01, 290.64, -1823.43]
-    comment: Sell diamond, stones
-    #var-change:
-    #    Rupee: 830
-    #notes: .v(Rupee) rupees.
 
-- .dir(<N turn super)
+- .dir(<N turn)
 
 - _Shrine::ShaWarvo
 
 - .dir(N)
 
+- _Cook<Hearty, Endura, Cold>:
+    comment: Save 1 durian
+    coord: [-3792.60, 267.34, -2319.19]
+    hide-icon-on-map: true
+
+- 10x arrows
+
+- _Equipment::Bow<Falcon Bow>:
+    hide-icon-on-map: true
+
+- Vah Medoh:
+    icon: medoh-enter
+
+- Ancient shaft and core
+- 10x ice arrows

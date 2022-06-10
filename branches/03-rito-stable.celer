@@ -1,0 +1,36 @@
+Rito Stable:
+- _Material<Cold Darner,2>:
+    line-color: rgb(0,196,0)
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    notes: For An Ice Guy quest and Little Sister's Big Request. Backup on the bridge to Akh Va'quot or near Rito Stable.
+
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Chest::Special<Great Eagle Bow>
+
+- _Shrine::AkhVaquot
+
+- .dir(W turn)
+- _Npc<Kheel>:
+    coord: [-3979.33, 271.21, -1751.18]
+    comment: Warbler's Nest, Find Kheel
+
+- .dir(E> super)
+- _Chest<Shock Arrow x5>:
+    coord: [-3557.68, 254.12, -1503.59]
+    notes: For menu overloading.
+
+- .dir(NE)
+- 10x wildberry
+- 61+ wood
+- Peppers and shrooms
+- Octoballoon and voltfin
+
+- .dir(E) + .dir(E)
+- _Material<Rushroom,1>:
+    coord: [-2826.19, 115.51, -1569.31]
+- _Shrine::DunbaTaag:
+    comment: 2.5 hearts entering shrine

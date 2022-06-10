@@ -2,20 +2,19 @@ Plateau:
 - SOR clip:
     notes: Watch opening cutscene.
 
-- _Equipment::Weapon<Tree Branch, Shroom>:
+- _Equipment::Weapon<Torch>:
     line-color: rgb(204,204,204)
-    coord: [-1034.19, 249.09, 1847.06]
+    coord: [-936.20, 224.90, 1880.20]
+    comment: Side hop to avoid cutscene
 
-#- _Material<Hylian Shroom,1>:
-#    coord: [-1025.71, 247.58, 1877.90]
-#    hide-icon-on-map: true
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [-920.93, 220.65, 1871.83]
 
 - .dir(Run)
 
 - .loc(Boko Camp)
 
-- _Material<Shroom, Pepper>:
-    coord: [-965.30, 238.52, 1956.67]
+- Get food along the way
 
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
@@ -34,14 +33,12 @@ Plateau:
 - _Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 
-- _Material<Arrow,5>:
-    hide-icon-on-map: true
+- 5x arrows
 
 - .dir(BLSS):
     notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
 
-- _Shrine::JaBaij:
-    comment: Clip in
+- _Shrine::JaBaij
 
 - _Npc<Old Man 1>:
     icon: king
@@ -54,7 +51,6 @@ Plateau:
 - _Npc<Old Man 2>:
     icon: king
     coord: [-572.50, 178.89, 1696.50]
-    comment: Text options 1-2-2-1
     var-change:
         MainQuest: 1
     #notes: .v(MainQuest)/14 complete
@@ -62,18 +58,18 @@ Plateau:
 - .dir(BLSS):
     comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
 
-#- _Material<Ruby,1>:
-#    coord: [-671.65, 171.79, 1522.61]
-
-- _Shrine::OmanAu
+- _Shrine::OmanAu:
+    notes: If you didn’t get a screw before, kill guardian inside shrine
 
 - .dir(BLSS)
 - .loc(Tree):
     coord: [-839,2273.5]
 
 - .dir(Tree WB)
-- _Shrine::OwaDaim:
-    comment: IRON SLEDGEHAMMER
+- _Shrine::OwaDaim
+
+- _Equipment::Weapon<Iron Sledgehammer>:
+    comment: In shrine
 
 - .dir(Boulder Launch + BLSS):
     notes: 3 hits with hammer.

@@ -1,6 +1,7 @@
 ---
 _project:
   authors:
+    - Blossom
     - TaoPlusPlus
   description: ""
   name: All Quests
@@ -8,6 +9,14 @@ _project:
   version: 0.1.0
 _route:
   - Plateau:
-      - __use__ Plateau
+    __use__ Plateau
   - Vah Medoh:
-      - __use__ Vah Medoh
+    __use__ Vah Medoh
+  - Rito Stable:
+    __use__ Rito Stable
+  - Farosh:
+    __use__ Farosh
+  - Camera:
+    __use__ Camera
+  - Gerudo Town:
+    __use__ Gerudo Town
