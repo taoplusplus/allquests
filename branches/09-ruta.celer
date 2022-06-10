@@ -1,0 +1,132 @@
+Vah Ruta:
+
+- _Warp::Shrine::TalohNaeg:
+    line-color: rgb(128,128,255)
+
+- Talk to Olkin for pumpkin
+- Talk to Impa
+
+- .dir(E) + .dir(SE) midair
+- _Chest<Hestu's Maracas>:
+    coord: [2172.24, 218.76, 1369.20]
+    comment: Kill bokos with bomb arrow
+
+- .dir(W)
+- _Npc<Hestu>:
+    coord: [2069.45, 188.17, 1422.25]
+    comment: Get 1 weapon slot
+
+- .dir(E)
+
+- _Shrine::DowNaeh
+
+- .dir(N>) + .dir(E)
+
+- _Memory::LanayruRoad
+
+- .dir(S) + .dir(NW)
+
+- Tame buck and ride to pedestal
+- Talk to Kass
+
+- _Shrine::MezzaLo
+
+- .dir(NE)
+- Monument 5:
+    coord: [2838.09, 228.01, 188.33]
+    notes: On wall behind trees
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(N)
+- Monument 2:
+    coord: [2877.09, 229.49, -32.75]
+    notes: Over Oren Bridge
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(W)
+- Monument 4:
+    coord: [3099.83, 236.67, 70.72]
+    notes: Pond, under Luto's Crossing
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .gale() + .dir(E) midair:
+    gale: 1
+
+- Monument 7:
+    coord: [3265.50, 341.84, 38.70]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(E)
+- Monument 6:
+    coord: [3393.74, 314.18, 49.77]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .gale() + .dir(<N) midair:
+    gale: 1
+
+- Monument 8:
+    coord: [3260.31, 241.83, -145.22]
+    notes: Above lake
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(W)
+- Monument 3:
+    coord: [3062.39, 184.92, -216.65]
+    notes: At water level, other side
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(NE) + .dir(N)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+    comment: Fish drama
+
+- Equip Zora Armor
+- _Npc::ZoraMale<Gruve>:
+    coord: [3292.20, 255.43, -520.38]
+    notes: Diving is Beauty!
+
+- 4x fleet lotus seeds
+- _Shrine::NeezYohma
+- _Cook<2 Hasty Steamed Fruit>
+- _Npc::ZoraMale<Muzu>:
+    coord: [3299.5,-474.5]
+    comment: Fish drama, Mipha memory
+
+- .dir(E) up
+- Monument 8:
+    coord: [3720.59, 461.92, -532.05]
+    notes: Lulu Lake
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(SW)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+    comment: Select Cryo, shock arrow
+
+- Vah Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]

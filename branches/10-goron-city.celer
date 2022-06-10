@@ -1,0 +1,65 @@
+Goron City:
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    line-color: red
+    movements:
+        - to: [3283.5,-431]
+          warp: true
+        - to: [3338.31, 268.90, -551.60]
+
+- _Chest::Special<Lightscale Trident>:
+    coord: [3328.99, 269.46, -547.36]
+
+- _Npc::ZoraMale<Fronk>:
+    coord: [3342,-501.5]
+    comment: Wife Washed Away
+
+- .dir(<N) + midair
+- Monument 10:
+    coord: [3207.40, 344.67, -736.45]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(<S)
+- Activate shrine pedestal:
+    coord: [3081,-459]
+- Throw away trident
+- _Shrine::DagahKeek
+
+- .dir(<W)
+- _Boss::Hinox::Blue:
+    coord: [2930.51, 312.54, -298.40]
+    comment: .fury()
+    fury: 3
+
+- .dir(SW)
+- _Npc::ZoraFemale<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    notes: Special Delivery
+
+- Break letter
+
+- .dir(E)
+- Monument 1:
+    coord: [2868.11, 249.51, -68.34]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- Deliver letter:
+    movements:
+        - to: [2662.5,-145.5]
+        - to: [2598,-201.5]
+
+- _Npc<Sasan>:
+    coord: [1760.46, 115.80, -56.04]
+    comment: Special Delivery
+
+- .dir(<E)
+- _Shrine::SohKofi:
+    notes: Knight's Bow optional
+

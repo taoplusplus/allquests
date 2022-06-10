@@ -1,11 +1,19 @@
 Vah Naboris:
 
+- .dir(E) land + .dir(W) + .dir(SW) midair
+- More luminous stones if needed
 - _Shrine::ShoDantu
 
+- .dir(S) + .dir(E) midair to tower
+- Talk to Kass
 - _Shrine::SasaKai
 
+- .dir(SE)
 - _Shrine::DakoTah
 
+- .dir(SW)
+- Four stamina at goddess statue
+- Complete GSC quest
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
     comment: On balcony, Urbosa memory
@@ -23,3 +31,61 @@ Vah Naboris:
 - Vah Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
+
+- _Npc<Bozai>:
+    line-color: rgb(255, 255, 225)
+    coord: [-3750,2874]
+    comment: Snow Boots
+    notes: Eighth Heroine and Forgotten Sword quests
+
+- _Tod::Noon:
+    coord: [-3832.79, 148.98, 2948.17]
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- Start Thunderhelm quest
+- Daybreaker Shield
+
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    comment: Search for Barta
+
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    comment: Silent Swordswomen
+
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    comment: Seven Heroines
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    comment: Perfect Drink
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+
+- _Npc::Gerudo<Calyban>:
+    comment: Mystery Polluter
+    coord: [-3915.29, 169.20, 2954.60]
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+
+- .dir(W>)
+
+- Kill Molduga with furies
+- 1x molduga guts
+
+- _Shrine::ThoKayu
+
+- .dir(BLSS)
+
+- _Snap::Quest<Leviathan>
+- Talk to Barta
+
+- _Shrine::HawaKoth
