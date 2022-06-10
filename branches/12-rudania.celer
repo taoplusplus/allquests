@@ -1,0 +1,74 @@
+Vah Rudania:
+
+- _Warp::Shrine::ShaeMosah
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk memory
+
+- .dir(E) + .dir(S>)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+    comment: Death Mountain's Secret
+
+- .dir(NE)
+- _Shrine::DaqaKoh
+
+- .dir(E>>)
+- .enemy(Kill 2 moblins):
+    icon: boss-dlc
+    comment: Rescue Yunobo
+    coord: [2142.43, 634.02, -2288.29]
+
+- Vah Rudania:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+    comment: .fury() .gale()
+    fury: 3
+    gale: 1
+
+- _Npc::Goron<Bladon>:
+    line-color: rgb(255,165,0)
+    comment: text option 2-1
+    notes: A Brother's Roast quest
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+        - to: [1648.50, 490.02, -2472.50]
+
+- _Npc::Goron<Fugo>:
+    comment: Road to Respect
+    coord: [1676.75,-2479.5]
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: complete main quest
+
+- _Npc::Goron<Fugo>:
+    comment: Road to Respect
+    coord: [1676.75,-2479.5]
+
+- .dir(S) + .dir(SE)
+- _Npc::Goron<Dugby>:
+    coord: [1787.98, 581.97, -2244.39]
+    comment: Death Mountain's Secret
+
+- .dir(SE)
+- _Npc::Goron<Gonguron>:
+    coord: [2045.68, 521.76, -2040.42]
+    comment: A Brother's Roast
+
+- .dir(SW)
+- Deliver rock meat:
+    movements:
+        - to: [1823.00, 453.77, -1891.17]
+          away: true
+
+- _Shrine::KayraMah
+
+- .dir(SW)
+- _Memory::EldinCanyon

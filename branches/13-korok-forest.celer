@@ -1,0 +1,69 @@
+Korok Forest:
+
+- .dir(BLSS)
+
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    comment: Lost Pilgramage
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort.
+
+- .dir(E)
+
+- _Npc<Walton>:
+    coord: [417.59, 334.17, -2180.27]
+    comment: Riddles of Hyrule
+    notes: Apple, pumpkin, sunshroom, voltfin, lynel hoof.
+
+- _Material<Rushroom,1>:
+    comment: Above Walton
+
+- _Material<Rushroom,4>:
+    comment: In shop
+
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
+- _Npc<Follow Oaki>:
+    #line-color: rgb(0,255,255)
+    movements:
+        - to: [257,-2249]
+        - to: [248,-2274]
+        - to: [200.5,-2262]
+        - to: [172.5,-2294]
+        - to: [173.5,-2327.5]
+        - to: [150.5,-2357.5]
+        - to: [110,-2350.5]
+        - to: [90,-2370.5]
+        - to: [76,-2414]
+
+- _Material<Restlest Cricket,10>
+
+- _Material<Hot-Footed Frog,5>
+
+- _Material<Courser Bee Honey>
+
+- _Shrine::DaagChokah
+
+- .dir(E>> super)
+- _Shrine::KeoRuug
+
+- .dir(E)
+- _Npc<Damia>:
+    coord: [564.99, 264.83, -2160.65]
+    comment: Trial of Wood
+
+- .dir(NE)
+- _Shrine::MaagHalan:
+    notes: Throw away sword
+
+- .dir(SW super)
+- _Npc<Zooki>:
+    #line-color: rgb(218,112,214)
+    coord: [251.03, 285.34, -1979.93]
+    comment: Trial of Second Sight
+
+- .dir(SW)
+- _Equipment::Shield<Rusty Shield>:
+    coord: [100.06, 286.08, -1827.37]
+
+- _Shrine::KuhnSidajj

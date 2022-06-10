@@ -30,3 +30,9 @@ _route:
     __use__ Goron City
   - Akkala:
     __use__ Akkala
+  - Vah Rudania:
+    __use__ Vah Rudania
+  - Korok Forest:
+    __use__ Korok Forest
+  - X:
+    __use__ X
