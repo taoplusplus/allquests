@@ -28,3 +28,5 @@ _route:
     __use__ Vah Ruta
   - Goron City:
     __use__ Goron City
+  - Akkala:
+    __use__ Akkala

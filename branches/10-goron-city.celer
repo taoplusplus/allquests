@@ -63,3 +63,111 @@ Goron City:
 - _Shrine::SohKofi:
     notes: Knight's Bow optional
 
+- .dir(N) + ...
+- _Shrine::TahMuhl
+
+- .dir(E) + .dir(N) midair to stable
+- _Npc<Mayro>:
+    coord: [2620.40, 253.87, -1144.95]
+    comment: Landscape of a Stable
+
+- .dir(E)
+- _Shrine::MoaKeet
+
+- .dir(E) + midair to bridge, then .dir(BLSS)
+- _Shrine::DahHesho
+
+- .dir(SW) + midair
+- Fight guardian, take axe and parts
+- _Shrine::KenaiShakah
+
+- .dir(SE) to updraft
+- .dir(N>) super
+
+- Armoranth on hill above cave:
+    coord: [4729.44, 272.50, -1321.65]
+
+- _Shrine::KahMael
+
+- .gale() + .dir(W>) + ...:
+    gale: 1
+
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- .dir(W)
+- Kill guardian:
+    icon: calamity
+    coord: [3681.23, 195.66, -1511.54]
+    comment: Take parts
+    notes: Hobbies of the Rich
+
+- Kill guardian:
+    icon: calamity
+    coord: [3624.82, 195.25, -1602.62]
+    comment: Take parts
+    notes: Hobbies of the Rich
+
+- .dir(W>) + ...
+- _Npc<Jana>:
+    coord: [3133.57, 306.78, -1693.04]
+    comment: Little Sister's Big Request
+
+- .dir(W)
+- _Shrine::ZeKasho
+
+- .dir(W)
+- _Shrine::SahDahaj
+
+- .dir(W)
+- _Shrine::QuaRaym
+
+- .dir(N) + .dir(N)
+- _Material<Fireproof Lizard,10>:
+    movements:
+        - to: [1605.70, 441.12, -1981.67]
+        - to: [1630.89, 439.24, -1974.67]
+        - to: [1633.87, 433.62, -1951.08]
+        - to: [1652.15, 430.77, -1931.88]
+        - to: [1670.67, 428.92, -1918.46]
+        - to: [1701.79, 430.53, -1932.14]
+        - to: [1683.16, 430.31, -1948.15]
+
+- _Npc<Kima>:
+    coord: [1657.35, 430.17, -1960.60]
+    comment: Flamebreaker Armor
+
+- _Npc::Goron<Greyson>:
+    coord: [1656.63, 430.15, -1968.53]
+    comment: From the Ground Up
+    notes: Make night if needed to speak to him.
+
+- .dir(<N) + .dir(<E)
+- _Shop<Armor Shop>:
+    coord: [1645.49, 490.49, -2406.03]
+    comment: Flamebreaker Boots
+
+- .dir(NE run)
+- _Shop<General Store>:
+    coord: [1689.61, 491.59, -2468.49]
+    comment: Goron Spice
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- .dir(N>)
+- _Shrine::ShaeMosah
+
+- .dir(<N turn)
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, 560.52, -2941.37]
+
+- 10x ice arrows
+- .dir(W>)
+- _Boss::Talus::Igneo:
+    coord: [1336.10, 507.31, -3043.21]
+    comment: .fury()
+    fury: 3
+
+- .dir(E)
+- _Shrine::ShoraHah

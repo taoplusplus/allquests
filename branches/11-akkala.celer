@@ -1,0 +1,81 @@
+Akkala:
+
+- .dir(N) + .dir(E)
+- _Snap::Quest<Eldin Great Skeleton>:
+    coord: [1517.38, 209.04, -3703.94]
+
+- .dir(E) + ...
+- .gale() Gut Check Challenge:
+    gale: 3
+
+- _Shrine::GoraeTorr
+
+- _Tod::Night:
+    notes: If needed
+
+- .dir(E) delayed turn
+- _Shrine::ZunaKai
+
+- Look E for falling star
+
+- .dir(E)
+- _Chest::Special<Salvager Vest>:
+    coord: [3636.00, 302.00, -3520.00]
+
+- .dir(W) drop down
+- _Snap::Quest<Kilton>:
+    coord: [3244.60, 82.63, -3448.81]
+    comment: Take 3 pics for safety
+
+
+- _Warp::Shrine::DahHesho:
+    line-color: rgb(255,128,128)
+
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- Four hearts at goddess statue
+
+- .dir(NW)
+- Read shrine stone:
+    coord: [4626.25, 131.11, -1829.19]
+
+- .dir(BLSS) with orb
+- _Shrine::RitaagZumo
+
+- .dir(<N) + ...
+- _Shrine::KatosaAug
+
+- _Npc<Hoz>:
+    coord: [4243.71, 231.44, -2746.65]
+    comment: A Shady Customer
+
+- _Npc<Nobo>:
+    coord: [4245.96, 231.45, -2747.83]
+    comment: "this area"
+    notes: Spring of Power quest
+
+- .!!(Check materials or transumte)
+- 15 springs, 5 shafts, 2 cores
+- 11 flint, 10 amber
+- 10 luminous stones
+- 1000 rupees
+
+- .dir(N>) + ...
+- .!!(Blue Flame):
+    coord: [4155.5,-3170.5]
+
+- .dir(E) + ...
+- .loc(Activate Akkala Tech Lab):
+    coord: [4522.01, 354.23, -3166.63]
+
+- Talk to Robbie
+- Make ancient short sword
+- Talk to Jerrin
+
+- .dir(N>)
+- _Shrine::TuKaloh
+- _Chest<Barbarian Helm>:
+    comment: In shrine
+
+- _Snap::Quest<Stalker/Skywatcher>
