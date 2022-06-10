@@ -1,0 +1,44 @@
+Kohga:
+
+- _Warp::Shrine::MoggLatan:
+    line-color: rgb(255, 255, 153)
+
+- .dir(BLSS) + wb .dir(W)
+
+- _Shrine::KeehaYoog
+
+- .dir(<N) + .dir(W)
+
+- _Snap::Quest<Eighth Heroine>:
+    coord: [-4384.37, 505.19, 536.68]
+
+- .dir(S>)
+
+- _Shrine::KemaKosassa
+
+- .dir(E) + ...
+
+- .boss(White-Maned Lynel):
+    coord: [-4037.55, 795.53, 878.59]
+    notes: Lynel hoof
+
+- _Snap::Quest<Forgotten Sword>:
+    coord: [-3966.65, 766.14, 969.19]
+
+- .dir(E) turn
+- _Equipment::Weapon<Dragonbone Moblin Club>:
+    coord: [-3075.80, 550.12, 1363.40]
+- 14x wood
+- _Shrine::KuhTakkar
+
+- _Tod::Noon
+
+- .dir(<W)
+- Clip into Yiga Hideout:
+    coord: [-3510.46, 442.51, 1297.31]
+
+- Duplex Bow and arrows
+
+- .boss(Kohga)
+
+- _Chest::Special<Thunderhelm>

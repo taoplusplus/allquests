@@ -3,32 +3,64 @@ Gerudo Town:
 - _Warp::Shrine::KehNamut:
     line-color: yellow
 
-- Super or BLSS W to the Wizzrobe by the dead tree
-- Kill for fire rod, then windbomb up the immediate cliff
-- Grab fairy and electric darner under rock
-- Turn windbomb W to Canyon Stable
-- Grab rushrooms #7-10 on pillar with korok, grab korok as well
-- Talk to Sesami for quest
-- Buy warm darner from Beedle, and if you got 1 cold darner before, you can buy a winterwing butterfly here to replace the other
-- Rushroom #11 on small pillar, windbomb to shrine
-- Snap picture of guardian inside shrine
+- .dir(BLSS)
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2161.96, 333.51, 2140.63]
+    comment: Kill wizzrobe
+    notes: Weapon Connoisseur
+
+- .dir(SW)
+
+- _Material<Electric Darner>:
+    coord: [-2220.85, 356.03, 2204.36]
+    comment: Lift rock
+    notes: Freeze lizalfos
+
+- .dir(W) turn
+
+- _Korok::W15
+
+- _Material<Rushroom,4>:
+    coord: [-2812.53, 154.05, 2251.75]
+
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    notes: Missing in Action
+
+- Buy warm darner from Beedle
 
 - _Shrine::KayNoh
 
-- Windbomb W (slight right), midair S to Seven Heroines
+- _Snap::Quest<Guardian Scout>:
+    comment: In shrine
+
+- .dir(W>) + .dir(S)
+
+- Complete puzzle
 
 - _Shrine::KorshOhu
 
-- Windbomb W to wall, delayed turn W to shrine
-- Talk to creeper before entering
+- .dir(W)
+
+- _Npc<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
 
 - _Shrine::DaqoChisay
 
-- Super ENE to rock atop Kara Kara Bazaar:
-    notes: if you got 0 cold darners, you can buy them from Beedle here, you’ll just have to gale up to to the rock
-- Buy gerudo clothes from the BEAUTIFUL LADY
-- Super or turn windbomb back to Gerudo Town
-- Sell Clothes, buy all arrows except for bomb
-- Talk to Riju, then BLSS NW to shrine
+- .dir(<E turn + E midair)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(BLSS)
+
+- Sell rubber and climber's armor
+- Buy all non-bomb arrows
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(BLSS)
 
 - _Shrine::KemaZoos

@@ -1,0 +1,25 @@
+Vah Naboris:
+
+- _Shrine::ShoDantu
+
+- _Shrine::SasaKai
+
+- _Shrine::DakoTah
+
+- _Npc<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: On balcony, Urbosa memory
+
+- .dir(E> super)
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- .dir(SE surf)
+- _Npc<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    comment: Perfect Drink
+
+- Vah Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]

@@ -20,3 +20,7 @@ _route:
     __use__ Camera
   - Gerudo Town:
     __use__ Gerudo Town
+  - Kohga:
+    __use__ Kohga
+  - Vah Naboris:
+    __use__ Vah Naboris
