@@ -9,7 +9,7 @@ Gerudo Town:
     comment: Kill wizzrobe
     notes: Weapon Connoisseur
 
-- .dir(SW)
+- .dir(W)
 
 - _Material<Electric Darner>:
     coord: [-2220.85, 356.03, 2204.36]
@@ -29,6 +29,7 @@ Gerudo Town:
 
 - Buy warm darner from Beedle
 
+- .dir(S)
 - _Shrine::KayNoh
 
 - _Snap::Quest<Guardian Scout>:

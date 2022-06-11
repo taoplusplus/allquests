@@ -1,7 +1,6 @@
 Vah Naboris:
 
 - .dir(E) land + .dir(W) + .dir(SW) midair
-- More luminous stones if needed
 - _Shrine::ShoDantu
 
 - .dir(S) + .dir(E) midair to tower
@@ -31,6 +30,8 @@ Vah Naboris:
 - Vah Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
+    comment: .gale()
+    gale: 2
 
 - _Npc<Bozai>:
     line-color: rgb(255, 255, 225)
