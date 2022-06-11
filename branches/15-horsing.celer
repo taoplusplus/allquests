@@ -1,0 +1,198 @@
+Horsing:
+
+- _Warp::Shrine::OmanAu
+
+- .dir(N)
+- _Memory::LakeKolomo
+
+- .dir(<N)
+- _Shrine::KaamYatak
+
+- .dir(W) + ...
+- _Memory::SanidinPark
+
+- .dir(S>>)
+- _Npc<White Horse>:
+    coord: [-1674.17, 222.94, 807.44]
+
+- Ride to .loc(Outskirt Stable):
+    movements:
+        - to: [-1796,860]
+        - to: [-1944,959]
+        - to: [-1917,1071]
+        - to: [-1644,1020]
+        - to: [-1506,1101]
+        - to: [-1475,1175]
+        - to: [-1449.49, 137.75, 1269.01]
+
+- Register horse
+
+- _Npc<Trott>:
+    coord: [-1432.50, 137.72, 1264.50]
+    comment: A Rare Find
+    notes: Raw Gourmet Meat
+
+- _Npc<Toffa>:
+    coord: [-1439.25, 137.72, 1278.45]
+    comment: Royal White Stallion
+
+- _Npc<Aliza>:
+    coord: [-1400.00, 137.72, 1280.00]
+    comment: My Hero
+
+- .dir(W)
+
+- _Shrine::RotaOoh
+
+- .dir(S>)
+- _Shrine::DahKaso
+
+- .dir(W) + .dir(<S   )
+
+- Steal horse:
+    coord: [-1646.99, 86.38, 2072.51]
+
+- Ride horse:
+    movements:
+        - to: [-1642,2254]
+        - to: [-1782,2321]
+
+- .dir(S)
+- _Shrine::JeeNoh
+
+- Return to horse
+
+- _Npc<Zyle>:
+    movements:
+        - to: [-1782,2321]
+        - to: [-1990,2167]
+        - to: [-2029,1995]
+        - to: [-2033.50, 157.54, 1873.19]
+    comment: Good-Sized Horse
+
+- .dir(S)
+- _Npc<Palme>:
+    comment: Missing in Action
+    coord: [-2063.50, 208.00, 1994.50]
+
+- .dir(N)
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+
+- Climb and run
+- _Shrine::JolooNah
+
+- .dir(W)
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+
+- Drop down
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
+
+- .dir(SW)
+- _Material<Rushroom,5>:
+    comment: On cliff
+
+- _Npc<Pirou>:
+    coord: [-2796.56, 134.90, 2240.07]
+    comment: Rushroom Rush!
+
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Cook<Chilly Elixir>
+
+- .dir(SW)
+- _Memory::KaraKaraBazaar
+
+- _Npc::Rito<Guy>:
+    comment: An Ice Guy
+    coord: [-3238.62, 130.10, 2574.56]
+
+- _Npc::Gerudo<Rhondson>:
+    comment: From the Ground Up
+    coord: [-3269.43, 129.00, 2585.22]
+
+- _Npc<Nobiro>:
+    comment: Eye of the Sandstorm
+    coord: [-3282.89, 134.16, 2540.95]
+
+- .dir(W>)
+- _Npc::Gerudo<Anche>:
+    coord: [-3743.75, 146.81, 2304.44]
+    comment: Deliver ice
+
+- .dir(BLSS):
+    notes: .link([Delivery strat]https://youtu.be/xdwRCszyc48?t=11542)
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: deliver ice
+
+- .dir(S>)
+- _Npc::Gerudo<Isha>:
+    comment: Tools of the Trade
+    coord: [-3834.85, 149.52, 2875.26]
+
+- _Npc::Gerudo<Liana>:
+    comment: Search for Barta
+    coord: [-3912.83, 149.68, 2930.99]
+
+- _Npc::Gerudo<Malena>:
+    comment: Medicinal Molduga
+    coord: [-3866.5,2939.5]
+    notes: Get here before 10pm
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: Thunder Helm
+
+- _Tod::Noon
+
+- .dir(<<S)
+- .!!(Sand-Seal Rally)
+
+- _Shrine::RaqaZunzo
+
+- .dir(BLSS)
+- _Npc<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    comment: Perfect Drink
+
+- _Shrine::MisaeSuma
+
+- .dir(E>) + ...
+- _Shrine::DilaMaag
+- _Chest<Barbarian Helm>:
+    notes: Equip circlet, doublet, snow boots
+
+- .dir(N) + .dir(E) + .dir(S) + .dir(N)
+- Read the journal
+- Activate pedestal 4:00-5:30
+- _Shrine::SumaSahma
+
+- .dir(E)
+- _Shrine::IshtoSoh
+
+- _Npc<Giant Horse>:
+    coord: [-1196.01, 170.87, 2633.46]
+    comment: Hunt for the Giant Horse
+
+- Ride the horse:
+    movements:
+        - to: [-920,3114]
+        - to: [-836,3240]
+        - to: [-866,3350]
+        - to: [-716,3700]
+        - to: [-474,3738]
+        - to: [-266,3658]
+    notes: .link([Shortcut]https://discord.com/channels/269611402854006785/298175033224724500/977730091381575700)
+
+- _Npc<Straia>:
+    coord: [-212.39, 128.70, 3487.13]
+    comment: Hunt for the Giant Horse

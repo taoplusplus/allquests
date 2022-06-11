@@ -36,3 +36,5 @@ _route:
     __use__ Korok Forest
   - X:
     __use__ X
+  - Horsing:
+    __use__ Horsing

@@ -1,33 +1,154 @@
 X:
 
+- .dir(S>)
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+
+- .dir(<N)
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+
+- .dir(<W) to .loc(Docks)
 - _Shrine::SaasKosah
 
+- Run then wb .dir(W) + .dir(S)
 - _Memory::HyruleCastle
+
+- Raw meat, raw gourmet meat
+- Royal guard spear
+
+- .dir(BLSS)
+
+- _Equipment::Weapon<Blizzard Rod>:
+    coord: [766.20, 186.40, -751.00]
 
 - _Shrine::NamikaOzz
 
+- _Equipment::Weapon<Frostpear>:
+    comment: In shrine
+
+- .dir(<N)
+
+- _Npc<Shamae>:
+    coord: [1080.50, 127.38, -1125.00]
+    comment: before 8pm
+    notes: Balloon Flight quest
+
 - _Shrine::MirroShaz
+
+- .dir(<S)
 
 - _Shrine::ShehRata
 
+- .dir(BLSS)
+
 - _Shrine::DakaTuss
+
+- .dir(W>)
 
 - _Shrine::KayaWan
 
+- Glide down to river
+
+- _Chest<Knight's Broadsword>:
+    coord: [826.64, 112.80, 123.61]
+    comment: Under water
+    notes: Riverbed Reward quest
+
+- .dir(S>)
+
 - _Memory::HyruleField
+
+- .dir(<S)
 
 - _Shrine::HilaRao
 
+- .dir(<W) turn
+
 - _Shrine::WahgoKatta
 
+- .dir(S surf)
+- _Npc<Parcy>:
+    coord: [345.00, 121.73, 1091.50]
+    comment: Royal Guard's Gear
+
+- Cook fruitcake
+- _Tod::Night
+
+- _Npc<Gotter>:
+    coord: [325.82, 115.40, 1092.50]
+    comment: Royal Recipe
+
+- .dir(S>)
+- _Equipment::Weapon<Moblin Club>:
+    coord: [132.65, 116.42, 1397.90]
+    comment: Weapon Connoisseur
+
+- .dir(SW)
+- _Material<Rushroom,7>:
+    coord: [-181.62, 122.25, 1602.58]
+
+- .dir(E)
 - _Shrine::BoshKala
 
+- .dir(<S)
 - _Memory::WestNecluda
 
+- .dir(BLSS)
 - _Shrine::YaNaga
 
+- .dir(E)
+- _Npc::ZoraFemale<Mei>:
+    coord: [-226.89, 90.03, 2577.47]
+    comment: Wife Washed Away
+
+- .dir(E) to fountain on bridge:
+    coord: [-39,2513.75]
+- Look SE for falling star
+
+- .gale() + .dir(S) midair:
+    gale: 1
+
+- _Material<Rushroom,8>:
+    coord: [32.08, 172.98, 2978.75]
+
+- .dir(<E)
+
+- _Material<Rushroom,7>:
+    coord: [499.59, 122.61, 2869.82]
+
+- Run .dir(<S)
+- _Material<Rushroom,1>
 - _Shrine::PumaagNitae
 
+- .dir(E)
+- Talk to Kass:
+    coord: [815.25, 117.95, 3063.44]
+
+- .dir(<W)
+- .fury() Kill all bokos:
+    coord: [485,3342]
+    comment: Horseback Hoodlums
+    fury: 3
+
+- Run .dir(S) to .loc(stable)
+- _Tod::Morning:
+    coord: [516.76, 152.98, 3453.71]
+
+- _Npc<Perosa>:
+    comment: Horseback Hoodlums
+
+- .dir(S)
 - _Shrine::KaoMakagh
 
+- .dir(SW) + midair
+- _Npc<Loone>:
+    coord: [104.50, 109.30, 3825.50]
+    comment: Guardian Slideshow
+
 - _Shrine::ShoqaTatone
+
+- .dir(<N)
+- _Material<Rushroom,13>:
+    coord: [-113.00, 111.07, 3418.01]
+    comment: Use shock arrows
