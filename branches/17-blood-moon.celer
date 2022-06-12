@@ -1,0 +1,146 @@
+Blood Moon:
+
+- _Warp::VahMedoh
+
+- _Npc<Notts>:
+    coord: [-3596.62, 317.93, -1794.98]
+    comment: Recital at Warbler's Nest
+
+- _Npc<Amali>:
+    coord: [-3668.51, 321.49, -1769.96]
+    comment: Where's Kheel?
+
+- .dir(W)
+- Rito stable, farm 30+ wood:
+    coord: [-3265.12, 225.80, -1745.29]
+
+- _Npc<Lester>:
+    coord: [-3267.07, 224.60, -1773.77]
+    comment: Curry for What Ails You
+
+- _Npc<Gesane>:
+    coord: [-3308.27, 227.83, -1803.34]
+    comment: Face the Frost Talus
+
+- .dir(W)
+- _Npc<Kotts>:
+    coord: [-3488.88, 258.52, -1850.25]
+    comment: Recital at Warbler's Nest
+
+- .dir(W)
+- _Npc<Juney>:
+    coord: [-3611.76, 289.03, -1849.23]
+    comment: Apple of My Eye
+
+- _Npc<Bedoli>:
+    coord: [-3632.60, 320.12, -1793.79]
+    comment: Ancient Rito Song
+    notes: On landing
+
+- _Cook<Salmon Meuniere>:
+    comment: salmon, wheat, butter
+    coord: [-3589.07, 296.55, -1805.50]
+
+- _Npc<Genli>:
+    coord: [-3608.76, 296.75, -1797.82]
+    comment: Recital at Warbler's Nest
+
+- _Tod::Noon:
+    hide-icon-on-map: true
+
+- _Npc<Fyson>:
+    coord: [-3600.50, 287.60, -1814.47]
+
+- _Npc<Jogo>:
+    coord: [-3605.16, 289.12, -1852.43]
+    comment: Spark of Romance
+
+- _Npc<Cree>:
+    coord: [-3606.34, 296.75, -1799.16]
+    comment: Recital at Warbler's Nest
+
+- _Npc<Molli>:
+    coord: [-3618.43, 320.15, -1797.41]
+    comment: Bird in the Mountains
+
+- .dir(S)
+- _Shrine::BareedaNaag
+
+- .dir(W>)
+- _Shrine::VooLota:
+    comment: 4-5-3-1-2
+
+- .dir(BLSS)
+- _Shrine::KahOkeo
+
+- .dir(E) + ...
+- _Memory::AncientColumns
+
+- _Shrine::TenaKosah
+
+- .dir(<N)
+- .loc(Great Fairy Fountain):
+    coord: [-3541.00, 294.88, -745.00]
+
+- .dir(E) + .dir(SE)
+- _Npc<Geggle>:
+    coord: [-2912.28, 274.78, -551.75]
+    comment: Cliffside Etchings
+
+- _Npc<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Gift for the Great Fairy
+
+- _Tod::Night:
+    coord: [-2913.39, 274.74, -561.13]
+
+- .dir(S)
+- _Shrine::ShaeLoya
+
+- .dir(S>)
+- _Npc<Kass>:
+    coord: [-2778.84, 348.24, 206.35]
+
+- _Shrine::MijahRokee
+
+- .dir(<E) delayed turn
+- _Shrine::SheemDagoze
+
+- .dir(E)
+- _Npc<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
+
+- .dir(<N)
+- Rescue traveler for monster extract:
+    coord: [-1864.50, 214.37, -280.00]
+
+- .dir(<N)
+- Complete Toh Yahsa entry
+- _Shrine::TohYahsa
+
+- .dir(N>) + ...
+
+- _Shrine::MaagNorah
+
+- .dir(<E)
+- _Npc<Akrah, Garshan, Onya>:
+    coord: [-1541.84, 212.23, -1804.59]
+    comment: Leviathan Bones
+
+- .dir(S)
+- _Shrine::MonyaToma
+
+- .dir(E>)
+- _Memory::IrchPlain
+
+- .dir(BLSS)
+- _Shrine::ZaltaWa
+
+- .dir(E>) + .dir(NE)
+- _Shrine::NoyaNeha
+
+- .dir(SE)
+- _Shrine::KatahChuki
+
+- .dir(SE)
+- _Memory::SacredGrounds

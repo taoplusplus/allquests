@@ -40,3 +40,5 @@ _route:
     __use__ Horsing
   - Hebra 1:
     __use__ Hebra 1
+  - Blood Moon:
+    __use__ Blood Moon
