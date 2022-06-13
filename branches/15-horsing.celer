@@ -1,6 +1,7 @@
 Horsing:
 
-- _Warp::Shrine::OmanAu
+- _Warp::Shrine::OmanAu:
+    line-color: rgb(52, 152, 219)
 
 - .dir(N)
 - _Memory::LakeKolomo

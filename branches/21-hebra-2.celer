@@ -1,18 +1,24 @@
 Hebra 2:
 
-- _Warp::Shrine::ShadaNaw
+- _Warp::Shrine::ShadaNaw:
+    line-color: rgb(217, 136, 128)
 
-112. Rok Uwog
-Warp to Shada Naw
-Super W to Pikida Stonegrove
-113. Sha Gemma
-Windbomb or gale N out of the grove
-Windbomb(s) NE to shrine
-114. Qaza Toki
-Turn windbomb ESE towards Hebra Maze
-Snap a pic of stalhorse before windbombing up to the maze
-Barbarian Legwraps inside shrine
-115. Ketoh Wawai
-Windbomb to get on top of maze
-Windbomb chain or BLSS ESE to Typhlo Ruins
-Midair towards lit torches after text
+- .dir(W)
+- _Shrine::RokUwog
+
+
+- .dir(N) + .dir(NE) + ...
+- _Shrine::ShaGehma
+
+
+- .dir(BLSS)
+- _Snap::Quest<Stalhorse>:
+    coord: [-1045.14, 326.27, -3549.53]
+
+- .dir(E) above maze
+- _Shrine::QazaTokki
+
+- .dir(<S) to top of maze
+- .dir(BLSS)
+
+- _Shrine::KetohWawai

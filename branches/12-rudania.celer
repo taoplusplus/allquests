@@ -32,7 +32,7 @@ Vah Rudania:
     gale: 1
 
 - _Npc::Goron<Bladon>:
-    line-color: rgb(255,165,0)
+    line-color: rgb(46,134,193)
     comment: text option 2-1
     notes: A Brother's Roast quest
     movements:

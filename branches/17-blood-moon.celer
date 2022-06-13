@@ -1,6 +1,7 @@
 Blood Moon:
 
-- _Warp::VahMedoh
+- _Warp::VahMedoh:
+    line-color: rgb(133,1932,233)
 
 - _Npc<Notts>:
     coord: [-3596.62, 317.93, -1794.98]

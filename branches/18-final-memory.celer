@@ -1,45 +1,114 @@
 Final Memory:
 
-- _Warp::TalohNaeg
+- _Warp::Shrine::TalohNaeg:
+    line-color: rgb(72, 201, 176)
 
-95. Tahlo Naeg
-Warp to Tahlo Naeg
-Snap picture of blupee, get nightshade if you don’t have one
-Summon great fairy, snap a pic of fountain
-Windbomb back into the village, land at cooking pot
-Make noon if needed for Koko and Cottla quests
-Make night, collect cuccos and fireflies
-Turn in cucco and firefly quests
-Talk to Impa first, then Paya
-Run out and make it night again
-Windbomb to shrine and complete it this time
-96. Lakna Rokee
-Note: Dorian will start leaving his post at 10, so steer clear of him during this
-Grab the traveler’s sword out of the waterfall on the east side of the village
-Light torches by goddess statue, then turn in quest at arrow shop
-Windbomb up to forest where the shrine pedestal is
-Farm wood while waiting for Dorian (again, need at least 50)
-Kill Yiga man and take his Windcleaver
-97. Kam Urog
-Windbombs SE, shoot glowing eye statue
-Final Memory
-Windbomb S to hut in forest, talk to Calip for quest
-Windbomb W(slight left) to field of dead guardians
-98. Toto Sah
-Windbomb(s) S to Misko’s hideout, open one of the chests inside
-Windbomb NW to shrine behind rocks
-99. Ha Dahamar
-Windbomb N to horses outside stable
-Ride one towards but not all the way to the stable
-Talk to the brothers inside stable TWICE for quest
-Buy frogs from Beedle if you don’t have 5 yet
-Talk to guy in front of stable TWICE to start quest
-Bring horse to him to complete, then head to shrine
-100. Ree Dahee
-Windbomb WSW then NE
-101. Shee Venath
-SCW and land on the rocks behind shrine
-102. Shee Vaneer
-Windbomb S to other shrine
-103. Shae Katha
-Windbomb SW to Spring of Courage, drop Farosh scale
+- _Snap::Quest<Blupee>:
+    coord: [1886.16, 272.16, 900.06]
+
+- Grab blue nightshade
+- Activate fairy fountain
+
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 265.00, 845.00]
+
+- 2 cuccos above
+
+- _Npc<Cado>:
+    coord: [1838.75,964.25]
+    comment: Flown the Coop
+
+- _Npc<Cottla>:
+    coord: [1870.67, 228.35, 957.56]
+    comment: Playtime with Cottla
+
+- 3 cuccos in the back
+
+- _Npc<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+
+- 1 cucco
+
+- _Npc<Koko>:
+    coord: [1801,1016.5]
+    comment: Cooking with Koko
+
+- _Tod::Night
+
+- Orchard cucco and turn in quest
+
+- Collect fireflies:
+    coord: [1901,995]
+
+- _Npc<Lasli>:
+    coord: [1899.75,1035.75]
+    comment: By Firefly's Light
+
+- _Npc<Impa and Paya>:
+    coord: [1772.71, 229.43, 984.31]
+
+- _Shrine::TalohNaeg
+
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [1931.10, 229.83, 987.25]
+
+- Light torches:
+    coord: [1847.75,1000]
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- .dir(E>>)
+- Farm up to 50 wood
+- Enter cutscene, kill Yiga:
+    coord: [2024.21, 292.86, 962.56]
+
+- _Shrine::LaknaRokee
+
+- .dir(SE)
+- _Shrine::KamUrog
+
+- .dir(S)
+- _Npc<Calip>:
+    coord: [2398.96, 118.64, 1834.33]
+    comment: The Cursed Statue
+
+- .dir(<W)
+- _Memory::AshSwamp
+
+- .dir(S) + ...
+- _Chest<Sapphire>:
+    coord: [1955.82, 178.14, 2609.72]
+    comment: middle chest
+
+- .dir(NW)
+- _TotoSah
+
+- .dir(N)
+- Tame a horse:
+    coord: [1784.94, 117.91, 2036.54]
+
+- _Npc<Domidak and Prissen>:
+    coord: [1767.48, 116.07, 1925.15]
+    comment: Misko, the Great Bandit
+
+- _Npc<Rensa>:
+    coord: [1748.38, 116.11, 1923.67]
+    comment: Wild Horses
+
+- .dir(W)
+- _Shrine::HaDahamar
+
+- .dir(<W) + .dir(W>) midair
+- _Shrine::ReeDahee
+
+- .dir(SCW)
+- _Shrine::SheeVenath
+
+- .dir(S)
+- _Shrine::SheeVaneer
+
+- .dir(SW)
+- _Shrine::ShaeKatha

@@ -11,7 +11,9 @@ Hebra 1:
 
 - _Shrine::TutsuwaNima
 
-- _Warp::Shrine::ShaWarvo
+- _Warp::Shrine::ShaWarvo:
+    line-color: rgb(93,173,226)
+
 - .dir(N)
 - _Shrine::MakaRah
 

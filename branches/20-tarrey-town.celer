@@ -2,23 +2,52 @@ Tarrey Town:
 
 - _Warp::Shrine::DahHesho
 
-111. Jitan Sama
-Warp to Da Hesho, windbomb to Tarrey Town
-Talk to man looking out at the wetlands TWICE for quest
-Talk to Hudson to continue quest
-Warp to Myahm Agana
-Talk to Bolson, but tell him to wait before leaving
-Get all house upgrades, then send them to Tarrey Town
-Interact with the Cursed Statue TWICE to complete quest
-Talk to Nebb in town to turn in all weapons (ancient short sword is the last one)
-Talk to Medda in carrot patch for quest
-Talk to Manny outside inn, then ask Prima what she likes
-Talk to Manny again TWICE to complete quest
-Talk to Clavia behind dye shop for quest
-Windbomb up to sheep farm to turn in Sheep Rustlers
-Windbomb chain N (slight right) to Spring of Wisdom, drop scale
-Tarrey Town Complete
-Warp to Da Hesho, windbomb to Tarrey Town
-Talk to Hudson to begin ceremony
-Talk to Hudson AGAIN after ceremony to complete quest
-Make night at cooking pot
+- _Npc<Hagie>:
+    coord: [3919,-1605]
+    comment: Hobbies of the Rich
+
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- _Warp::Shrine::MyahmAgana
+
+- _Npc<Bolson>:
+    coord: [3331.22, 235.28, 2284.61]
+    comment: From the Ground Up
+
+- House upgrades
+- Invite Bolson to Tarrey Town
+
+- _Npc<Demon Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+
+- _Npc<Nebb>:
+    coord: [3352.40, 225.55, 2138.81]
+    comment: Weapon Connoisseur
+
+- _Npc<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+    comment: Spring of Wisdom
+
+- _Npc<Manny>:
+    coord: [3418.24, 226.84, 2121.22]
+    comment: Gift for My Beloved
+
+- _Npc<Clavia>:
+    coord: [3434.98, 226.90, 2149.15]
+    comment: Secret of the Cedars
+
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Sheep Rustlers
+
+- .dir(N>) + ...
+- _Shrine::JitanSami
+
+- _Warp::Shrine::DahHesho
+
+- _Npc<Hudson>:
+    coord: [3970.74, 233.60, -1623.47]
+    comment: From the Ground Up
+
+- _Tod::Night

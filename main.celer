@@ -42,3 +42,13 @@ _route:
     __use__ Hebra 1
   - Blood Moon:
     __use__ Blood Moon
+  - Final Memory:
+    __use__ Final Memory
+  - Eventide:
+    __use__ Eventide
+  - Tarrey Town:
+    __use__ Tarrey Town
+  - Hebra 2:
+    __use__ Hebra 2
+  - All Quests:
+    __use__ All Quests

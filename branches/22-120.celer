@@ -1,26 +1,60 @@
-Gift from the Monks:
+All Quests:
 
-- _Warp::Shrine::ShadaNaw
+- _Warp::Shrine::ShadaNaw:
+    line-color: rgb(231, 76, 60)
 
-116. Goma Assagh
-Warp to Shada Naw
-Windbomb chain up to Hebra Peak
-Look up at the sky to the SE, drop down to the shrine after the star falls
-117. Lanno Kooh
-Windbomb over iceblocks, then windbomb to the final red chest
-Delayed turn S to icy death river cave
-118. Gee Harah
-Exit E, windbomb NE to stone door
-Bust it open with your favorite strat
-119. Rin Oyaa
-Windbomb N, E, then ENE to stable
-120. Rona Kachta
-Run into the stable and talk to Juannelle TWICE for quest
-Windbomb SSE to Forgotten Temple
+- .dir(S>) + ... to Hebra Peak
+- Look up SE for falling star
 
-Ganon:
+- _Shrine::GomaAsaagh
 
-Open chests behind shrine to complete quest
-Warp to Keo Ruug
-Turn in all the remaining Korok quests
-Super to Castle, GG kthxbai
+- .dir(SE)
+- _Chest<Salvager's Trousers>:
+    coord: [-2605.00, 583.00, -2652.00]
+
+- .dir(S)
+- _Shrine::LanooKooh
+
+- Exit .dir(E), then .dir(NE)
+
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(E) + .dir(<E)
+
+- _Npc<Juannelle>:
+    coord: [-1641.43, 339.19, -2561.69]
+    comment: Stalhorse Pictured!
+
+- _Shrine::RinOyaa
+
+- .dir(<S) + .dir(BLSS)
+
+- _Shrine::RonaKachta
+
+- _Chest<Set of the Wild>
+
+- _Warp::Shrine::KeoRuug
+
+- Remaining Korok quests
+
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+
+- _Npc<Chio>:
+    comment: Korok Trials
+    coord: [431.66, 250.56, -2139.55]
+
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
+
+- .dir(BLSS)
+
+- .boss(Ganon):
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    comment: Fight
+    split-type: UserDefined
+
+- GG kthxbai
