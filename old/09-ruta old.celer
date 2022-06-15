@@ -24,23 +24,32 @@ Vah Ruta:
 
 - _Memory::LanayruRoad
 
-- BLSS .dir(N)
-- Monument 6:
-    coord: [3393.74, 314.18, 49.77]
+- .dir(S) + .dir(NW)
+
+- Tame buck and ride to pedestal
+- Talk to Kass
+
+- _Shrine::MezzaLo
+
+- .dir(NE)
+- Monument 5:
+    coord: [2838.09, 228.01, 188.33]
+    notes: On wall behind trees
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(N)
+- Monument 2:
+    coord: [2877.09, 229.49, -32.75]
+    notes: Over Oren Bridge
     icon: npc-zora-female
     var-change:
         ZoraM: 1
     comment: .v(ZoraM)/10
 
 - .dir(W)
-- Monument 7:
-    coord: [3265.50, 341.84, 38.70]
-    icon: npc-zora-female
-    var-change:
-        ZoraM: 1
-    comment: .v(ZoraM)/10
-
-- .dir(<W)
 - Monument 4:
     coord: [3099.83, 236.67, 70.72]
     notes: Pond, under Luto's Crossing
@@ -49,7 +58,27 @@ Vah Ruta:
         ZoraM: 1
     comment: .v(ZoraM)/10
 
-- .dir(N>)
+- .gale() + .dir(E) midair:
+    gale: 1
+
+- Monument 7:
+    coord: [3265.50, 341.84, 38.70]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .dir(E)
+- Monument 6:
+    coord: [3393.74, 314.18, 49.77]
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
+
+- .gale() + .dir(<N) midair:
+    gale: 1
+
 - Monument 8:
     coord: [3260.31, 241.83, -145.22]
     notes: Above lake
