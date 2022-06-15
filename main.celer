@@ -46,6 +46,8 @@ _route:
     __use__ Final Memory
   - Eventide:
     __use__ Eventide
+  - Zora's Domain:
+    __use__ Zora's Domain
   - Tarrey Town:
     __use__ Tarrey Town
   - Hebra 2:
