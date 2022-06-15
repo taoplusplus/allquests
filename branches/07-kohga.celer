@@ -16,7 +16,8 @@ Kohga:
 
 - _Shrine::KemaKosassa
 
-- .dir(E) + ...
+- .dir(E) + ... + .gale():
+    gale: 1
 
 - .boss(White-Maned Lynel):
     coord: [-4037.55, 795.53, 878.59]

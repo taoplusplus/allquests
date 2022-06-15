@@ -35,22 +35,7 @@ Goron City:
     comment: .fury()
     fury: 3
 
-- .dir(SW)
-- _Npc<Finley>:
-    coord: [2754.00, 189.53, -83.50]
-    notes: Special Delivery
-
-- Break letter
-
-- .dir(E)
-- Monument 1:
-    coord: [2868.11, 249.51, -68.34]
-    icon: npc-zora-female
-    var-change:
-        ZoraM: 1
-    comment: .v(ZoraM)/10
-
-- Run .dir(S)
+- Run .dir(S.)
 - Monument 2:
     coord: [2877.09, 229.49, -32.75]
     notes: Over Oren Bridge
@@ -59,7 +44,7 @@ Goron City:
         ZoraM: 1
     comment: .v(ZoraM)/10
 
-- .dir(NE)
+- .dir(S.)
 - Monument 5:
     coord: [2838.09, 228.01, 188.33]
     notes: On wall behind trees
@@ -68,11 +53,28 @@ Goron City:
         ZoraM: 1
     comment: .v(ZoraM)/10
 
-- .dir(S) + .dir(NW)
+- .dir(S>)
 - Tame buck and ride to pedestal:
     coord: [2601.50, 222.01, 552.50]
 - Talk to Kass
 - _Shrine::MezzaLo
+
+- .dir(N>)
+- _Npc<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    notes: Special Delivery
+
+- Break letter
+
+- .dir(E)
+- Monument 1:
+    movements:
+        - to: [2868.11, 249.51, -68.34]
+          away: true
+    icon: npc-zora-female
+    var-change:
+        ZoraM: 1
+    comment: .v(ZoraM)/10
 
 - Deliver letter:
     movements:

@@ -97,7 +97,10 @@ Vah Ruta:
 - _Npc::ZoraMale<Sidon>:
     coord: [3598.55, 316.00, -330.31]
     comment: Select Cryo, shock arrow
+    time-override: 999
 
 - Vah Ruta:
     icon: ruta-enter
     coord: [3662.40, 315.66, -175.42]
+    comment: .gale()
+    gale: 3
