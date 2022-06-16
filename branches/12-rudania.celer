@@ -19,6 +19,7 @@ Vah Rudania:
     icon: boss-dlc
     comment: Rescue Yunobo
     coord: [2142.43, 634.02, -2288.29]
+    time-override: 999
 
 - Vah Rudania:
     icon: rudania-enter

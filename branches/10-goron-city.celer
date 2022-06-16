@@ -98,6 +98,8 @@ Goron City:
     coord: [2620.40, 253.87, -1144.95]
     comment: Landscape of a Stable
 
+- Buy a flameproof potion
+
 - .dir(E)
 - _Shrine::MoaKeet
 
@@ -188,6 +190,7 @@ Goron City:
 - .dir(<N turn)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
+    time-override: 999
 
 - 10x ice arrows
 - .dir(W>)
