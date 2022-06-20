@@ -2,7 +2,10 @@ Akkala:
 
 - .dir(N) + .dir(E)
 - _Snap::Quest<Eldin Great Skeleton>:
-    coord: [1517.38, 209.04, -3703.94]
+    movements:
+        - to: [1602,-3312]
+        - to: [1517.38, 209.04, -3703.94]
+          away: true
 
 - .dir(E) + ...
 - .gale() Gut Check Challenge:
@@ -36,7 +39,7 @@ Akkala:
 
 - Four hearts at goddess statue
 
-- .dir(NW)
+- .dir(<W) + midair
 - Read shrine stone:
     coord: [4626.25, 131.11, -1829.19]
 
